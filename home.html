@@ -27,7 +27,7 @@
 	</div>
 	<div>
 	<div class="main_block">
-		<iframe id="abhay" class="left_frame cert-frame" src="http://certification.salesforce.com/certification-detail-print?conId=003G000002aLxkOIAS"> </iframe>
+		<iframe id="abhay" class="left_frame cert-frame"> </iframe>
 		<iframe id="akash" class="right_frame cert-frame" src="http://certification.salesforce.com/certification-detail-print?conId=003G0000029ZFb6IAG"> </iframe>
 	</div>
 	<div class="main_block">
@@ -64,6 +64,7 @@
 			var obj = document.getElementById('left_frame');
 			//alert(obj.style);
 			//alert('hii');
+			document.getElementById('abhay').src = "http://certification.salesforce.com/certification-detail-print?conId=003G000002aLxkOIAS";
 		}
 		function onchangeSearch(inputField){
 			var certFrame = document.getElementsByClassName('cert-frame');
